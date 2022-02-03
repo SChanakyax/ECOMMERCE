@@ -1,0 +1,25 @@
+{
+  "name": "mobileshop",
+  "version": "1.0.0",
+  "description": "Source\r https://www.youtube.com/watch?v=KLWA2vCERSQ&list=PLJ8BWbmKLmoKNHyQuVkmrXaXHJtCzIMCj&index=22&ab_channel=DailyTuition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss style.css --watch"
+
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SChanakyax/ECOMMERCE.git"
+  },
+  "author": "sandeep chanakya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SChanakyax/ECOMMERCE/issues"
+  },
+  "homepage": "https://github.com/SChanakyax/ECOMMERCE#readme"
+}
