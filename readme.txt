@@ -7,3 +7,5 @@ PHP
 MySQL
 Owl Carousel 2 - JQuery plugin
 Font awsome
+
+isotop plugin -> cdn.js -> top sales section
