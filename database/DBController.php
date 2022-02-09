@@ -22,12 +22,19 @@ class DBController{
         echo "connection successfull !";
     }
 
+    public function __destruc(){
+        $this->closeConnection();
+    }
 
+    //mysqli closing connection
+    protected function closeConnection() {
+        if($this->con!=null) {
+            $this->con->close();
+            $this->con= null;
+        }
+    }    
 
 }
-
-//DBController object
-$db = new DBController();
 
 
 ?>

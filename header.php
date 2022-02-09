@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="style.css">
 
     <?php
-    //require MySQL connection
-    require ('database/DBController.php');
+    //require function.php
+    require ('function.php');
 
     ?>
  
