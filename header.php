@@ -22,6 +22,11 @@
     <!-- Custom Css File -->
     <link rel="stylesheet" href="style.css">
 
+    <?php
+    //require MySQL connection
+    require ('database/DBController.php');
+
+    ?>
  
 </head>
 
