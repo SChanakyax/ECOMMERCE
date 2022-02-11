@@ -4,8 +4,12 @@
 
     //requset method post
     if($_SERVER['REQUEST_METHOD'] == "POST") {
-        //add to cart method
-        $Cart->addToCart($_POST['user_id'],$_POST['item_id']);
+
+        if(isset($_POST['top_sale_submit'])) {
+           //add to cart method
+           $Cart->addToCart($_POST['user_id'],$_POST['item_id']);  
+        }        
+       
 
     }
 ?>
@@ -45,7 +49,7 @@
                                     <button type="submit" name="top_sale_submit" class="btn btn-warning font-size-12">Add to Cart</button>
             
                                 </form>
-
+                            
 
                                </div>
                                 
