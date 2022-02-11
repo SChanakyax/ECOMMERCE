@@ -19,7 +19,7 @@
                             <a href="#">
                                 <img src="<?php echo $item['item_image']; ?>"  alt="product1" class="img-fluid" > </a>
                                <div class="text-center">
-                                <h6> <?php echo $item['item_image']; ?></h6>
+                                <h6> <?php echo $item['item_name']; ?></h6>
                                 <div class="rating text-warning font-size-12">
                                     <span><i class="fas fa-star"></i></span>
                                     <span><i class="fas fa-star"></i></span>
