@@ -49,6 +49,19 @@ class Cart
         }
     }
 
+    //calculate subtotal
+    public function getSum($arr) {
+        if(isset($arr)) {
+            $sum = 0;
+            foreach($arr as $item){
+                $sum += floatval($item[0]);
+            }
+
+            return sprintf('%.2f', $sum);
+        }
+    }
+
+
 }
 
 
